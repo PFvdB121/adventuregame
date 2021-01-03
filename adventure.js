@@ -926,7 +926,7 @@ function game(){
 			enemyHP-=290;
 		}
 		else if (Number(p.style.left.replace("px", ""))>300 && Number(p.style.left.replace("px", ""))<590){
-			enemyHP-=(285-(Number(p.style.left.replace("px", ""))-305));
+			enemyHP-=(290-(Number(p.style.left.replace("px", ""))-300));
 		}
 		enemyMaxHP=document.createElement("div");
 		document.body.appendChild(enemyMaxHP);
